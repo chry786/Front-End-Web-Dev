@@ -25,14 +25,20 @@ li a {
 } */
 nav {
   display: flex;
+  flex-direction: column;
   background-color:black;
+  padding: 0.3em;
+  margin: 0.3em;
+  flex-shrink: 0
 }
 
 nav a {
   background-color: white;
   color: blue;
-  padding: 0.5em;
+  padding: 0.3em;
   margin: 0.3em;
+  transition: background-color 0.7s;
+  flex-shrink: 0
 }
 nav a:hover {
   background-color: green;
@@ -41,8 +47,22 @@ nav a:hover {
 header {
   overflow: auto;
   background-color: black;
-  margin: 0.3em;
-  padding: 0.5em;
+  margin: 0.8em;
+  padding: 1em;
   text-align: center;
   color: white;
+}
+section{
+  overflow: auto;
+}
+
+main{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+p{
+padding-left: 0.25em;
+padding-right: 0.25em;
+box-sizing: border-box;
 }
