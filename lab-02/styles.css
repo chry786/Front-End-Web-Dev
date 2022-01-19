@@ -1,0 +1,48 @@
+body { background: white; }
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+/* li a:hover {
+  background-color: white;
+} */
+nav {
+  display: flex;
+  background-color:black;
+}
+
+nav a {
+  background-color: white;
+  color: blue;
+  padding: 0.5em;
+  margin: 0.3em;
+}
+nav a:hover {
+  background-color: green;
+}
+
+header {
+  overflow: auto;
+  background-color: black;
+  margin: 0.3em;
+  padding: 0.5em;
+  text-align: center;
+  color: white;
+}
